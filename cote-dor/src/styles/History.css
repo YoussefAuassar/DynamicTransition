@@ -1,0 +1,55 @@
+.text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+}
+
+h1 {
+	font-family: "ivyora-display", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #d4a84b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 200px;
+	margin-bottom: 0;
+}
+
+#intro-p {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 0;
+}
+
+#unique-chocolate-image {
+    width: 25vw; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Keep the absolute positioning */
+    bottom: 58%; /* Adjusted for better responsiveness */
+    left: 78%; /* Aligning the image to the right */
+    transform: translateY(0); /* Centering the image vertically */
+    pointer-events: none; /* Prevent interaction */
+}
+
+
+#second-p {
+    text-align: left;
+    font-size: 29px;
+
+    color: white;
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    line-height: 2.5rem;
+    margin-left: 700px;
+    
+}
