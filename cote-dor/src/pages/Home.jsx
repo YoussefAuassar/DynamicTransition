@@ -4,6 +4,7 @@ import "../styles/Home.css";
 import Logo from "/src/assets/svg/favicon-cote-dor.svg";
 import ChocolateBlob from "../components/ChocolateBlob"; 
 
+// Home is the first page of the application, featuring a button that directs users to the History page.
 function Home() {
 	return (
 		<div className="home-container">

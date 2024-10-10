@@ -1,3 +1,7 @@
+body {
+	background-color: #920000;
+}
+
 .text-container {
 	display: flex;
 	flex-direction: column;
@@ -62,4 +66,3 @@ h1 {
 	transform: translateY(0); 
 	pointer-events: none; 
 }
-
