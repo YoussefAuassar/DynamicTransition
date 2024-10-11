@@ -16,6 +16,7 @@ const Intro = () => {
             <ParallaxLayer offset={0} speed={1} style={{ pointerEvents: "none" }}>
                 <img id="unique-chocolate-image-3" src={YourImage3} alt="Chocolate" />
             </ParallaxLayer>
+            
 
             <ParallaxLayer offset={0} speed={1}>
                 <div className="text-container">
@@ -47,6 +48,8 @@ const Intro = () => {
             <ParallaxLayer offset={0} speed={1.4} style={{ pointerEvents: "none" }}>
                 <img id="unique-chocolate-image-2" src={YourImage2} alt="Chocolate" />
             </ParallaxLayer>
+
+            
         </>
     );
 };

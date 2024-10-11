@@ -2,17 +2,21 @@ import React, { useRef } from "react";
 import "../styles/History.css";
 import Intro from "../components/Intro";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import CircleRotate from "../components/CircleRotate";
 
 const History = () => {
-    const ref = useRef();
-    return (
-        <Parallax pages={5} ref={ref}>
-            <ParallaxLayer offset={0} speed={0.5}>
-                <Intro />
-            </ParallaxLayer>
-            {/* Add other Parallax Layers as needed */}
-        </Parallax>
-    );
+	const ref = useRef();
+	return (
+		<Parallax pages={3} ref={ref}>
+			<ParallaxLayer offset={0} speed={1}>
+				<Intro />
+			</ParallaxLayer>
+
+			<ParallaxLayer offset={1} speed={1.5}>
+				<CircleRotate />
+			</ParallaxLayer>
+		</Parallax>
+	);
 };
 
 export default History;
