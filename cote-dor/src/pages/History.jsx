@@ -9,7 +9,7 @@ import CircleRotate from "../components/CircleRotate";
 const History = () => {
 	const ref = useRef();
 	return (
-		<Parallax pages={4} ref={ref}>
+		<Parallax pages={5} ref={ref}>
 			<ParallaxLayer offset={0} speed={1}>
 				<Intro />
 			</ParallaxLayer>
@@ -22,7 +22,7 @@ const History = () => {
 				<TextReveal />
 			</ParallaxLayer>
 
-			<ParallaxLayer offset={4} speed={2.5}>
+			<ParallaxLayer offset={3} speed={2.5}>
 				<Products />
 			</ParallaxLayer>
 		</Parallax>
