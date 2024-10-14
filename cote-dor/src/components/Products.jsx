@@ -30,17 +30,13 @@ const Products = () => {
 					style={{
 						position: "absolute",
 						left: "50%",
-						bottom: "60%", 
+						bottom: "20%",
 						width: "30%",
-						transform: "translate(-50%, 0)", 
+						transform: "translate(-50%, -50%)"
 					}}
 					drag
-					dragConstraints={{
-						left: -100, 
-						right: 100,  
-						top: -100,   
-						bottom: 100    
-					}}
+					dragConstraints={constraintsRef} 
+					dragElastic={0.2} 
 				/>
 			</motion.div>
 		</div>
@@ -48,3 +44,4 @@ const Products = () => {
 };
 
 export default Products;
+
