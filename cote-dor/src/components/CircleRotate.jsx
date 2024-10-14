@@ -28,11 +28,11 @@ const CircleRotate = () => {
 				src={Walnoot}
 				alt="Walnoot Background"
 				id="walnoot-background"
-				initial={{ scale: 0.9 }}
+				initial={{ scale: 0.8 }}
 				animate={{ scale: isInView ? 1.1 : 0.9 }} // Animate scale when in view
 				transition={{
 					ease: "easeInOut",
-					duration: 30,
+					duration: 1,
 					repeat: Infinity,
 					repeatType: "reverse",
 				}}

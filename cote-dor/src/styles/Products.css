@@ -19,14 +19,3 @@ h3 {
     color: white; 
 }
 
-.chocolate-image {
-    cursor: grab; 
-    user-select: none; 
-    position: relative; 
-    justify-content: center;
-    align-items: center;
-}
-
-.chocolate-image:hover {
-    cursor: grabbing; 
-}
